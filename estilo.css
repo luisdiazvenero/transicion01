@@ -1,0 +1,32 @@
+body {
+  background: #564787;
+  transition: 0.4s;
+}
+
+@media (max-width: 1280px) {
+  body {
+    background: #DBCBD8;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 800px) {
+  body {
+    background: #F2FDFF;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    background: #9AD4D6;
+    transition: 0.4s;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: #101935;
+    transition: 0.4s;
+  }
+}
