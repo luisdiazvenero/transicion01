@@ -1,12 +1,43 @@
+/*
+font-family: 'Diplomata SC', cursive;
+font-family: 'Ranga', cursive;
+*/
+
+html,
+body {
+height: 100%
+}
+
 body {
   background: #564787;
   transition: 0.4s;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 58px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  height: 100%;
+  padding: 0 10%;
+}
+
+.contenido span {
+  font-size: 50%;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1280px) {
   body {
     background: #DBCBD8;
     transition: 0.4s;
+    font-family: 'Merriweather', serif;
+    color: #564787;
+    font-size: 44px;
   }
 }
 
@@ -14,6 +45,9 @@ body {
   body {
     background: #F2FDFF;
     transition: 0.4s;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 32px;
+    color: #101935;
   }
 }
 
@@ -21,6 +55,10 @@ body {
   body {
     background: #9AD4D6;
     transition: 0.4s;
+    font-family: 'Ranga', cursive;
+    font-size: 62px;
+    line-height: 52px;
+    color: #564787
   }
 }
 
@@ -28,5 +66,9 @@ body {
   body {
     background: #101935;
     transition: 0.4s;
+    font-family: 'Diplomata SC', cursive;
+    font-size: 28px;
+    color: #F2FDFF;
+    line-height: 38px;
   }
 }
